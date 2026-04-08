@@ -1,18 +1,19 @@
 .navbar{
 position: sticky;
-top:0;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 40px;
-z-index:1000;
+top: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 40px;
 
 /* Liquid Glass Effect */
 background: rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
 
-border-bottom:1px solid rgba(255,255,255,0.2);
+border-bottom: 1px solid rgba(255,255,255,0.2);
+
+z-index: 1000;
 }
 
 .logo{
