@@ -1,0 +1,60 @@
+.why{
+padding:80px 40px;
+text-align:center;
+background:#f5f7fa;
+}
+
+.why h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.why-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* Glass Cards */
+
+.why-card{
+padding:30px;
+border-radius:15px;
+
+background: rgba(255,255,255,0.4);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+transition:0.3s;
+cursor:pointer;
+}
+
+.why-card:hover{
+transform:translateY(-8px);
+}
+
+.icon{
+font-size:40px;
+color:#0077ff;
+margin-bottom:15px;
+}
+
+.why-card h3{
+margin-bottom:10px;
+}
+
+.why-card p{
+line-height:1.5;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.why{
+padding:60px 20px;
+}
+
+}

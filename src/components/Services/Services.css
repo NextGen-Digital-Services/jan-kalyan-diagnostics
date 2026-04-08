@@ -1,0 +1,58 @@
+.services{
+padding:80px 40px;
+text-align:center;
+background:#f5f7fa;
+}
+
+.services h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.services-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* Glass Card */
+
+.service-card{
+padding:25px;
+border-radius:15px;
+
+background: rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+transition:0.3s;
+cursor:pointer;
+}
+
+.service-card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.service-card h3{
+margin-bottom:10px;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.services{
+padding:60px 20px;
+}
+
+}
